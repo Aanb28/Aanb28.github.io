@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="unit2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="units.html" class="dropbtn">Units</a>
+                <div class="dropdown-content">
+                    <a href="Unit1.html">Unit 1: Introduction</a>
+                    <a href="Unit2.html">Unit 2: Exploratory Analysis</a>
+                    <a href="Unit3.html">Unit 3: Correlation & Regression</a>
+                    <a href="Unit4.html">Unit 4: Linear Regression</a>
+                    <a href="Unit5.html">Unit 5: Clustering</a>
+                    <a href="Unit6.html">Unit 6: Clustering with python</a>
+                    <a href="Unit7.html">Unit 7: Intro to ANN</a>
+                    <a href="Unit8.html">Unit 8: Training ANN</a>
+                    <a href="Unit9.html">Unit 9: Intro to CNN</a>
+                    <a href="Unit10.html">Unit 10: CNN Interactive learning</a>
+                    <a href="Unit11.html">Unit 11:Model Selection</a>
+                    <a href="Unit12.html">Unit 12: Industry and Machine Learning</a>
+                </div>
+            </li>
+            <li><a href="/reflection.html">Reflection</a></li>
+        </ul>
+        
+       
+    </nav>
+    <main>
+        <h1>Unit 5: Clustering</h1>
+        <p>This unit tackles how a set of objects are grouped based on their similarities to analyze data and this method is called clustering. This is being used in many fields like pattern recognition, image analysis, information retrieval, bioinformatics and machine learning. </p>
+        <h2>E portfolio activity: </h2>
+        <p>The table shows the pathological test results for three individuals.</p>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Fever</th>
+                <th>Cough</th>
+                <th>Test-1</th>
+                <th>Test-2</th>
+              </tr>
+              <tr>
+                <td>Jack</td>
+                <td>M</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>P</td>
+                <td>N</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>F</td>
+                <td>Y</td>
+                <td>N</td>
+                <td>P</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>Jim</td>
+                <td>M</td>
+                <td>Y</td>
+                <td>P</td>
+                <td>N</td>
+                <td>N</td>
+              </tr>
+        </table>
+        <p>Calculate Jaccard coefficient for the following pairs:</p>
+        <ul>
+            <li>(Jack, Mary)</li>
+            <li>(Jack, Jim)</li>
+            <li>(Jim, Mary)</li>
+        </ul>
+        <p>Using</p>
+        <h4>J(A, B) = |A∩B| / |AUB|</h4>
+        <p><strong>Pair (Jack, Mary):</strong></p>
+        <ul>
+            <li>Intersection: {P}</li>
+            <li>Union: {P, N, A}</li>
+            <li>Jaccard coefficient: 1 / 3 = 0.33</li>
+        </ul>
+        <p><strong>Pair (Jack, Jim):</strong></p>
+        <ul>
+            <li>Intersection: {N, A}</li>
+            <li>Union: {P, N, A}</li>
+            <li>Jaccard coefficient: 2 / 3 = 0.67</li>
+        </ul>
+        <p><strong>Pair (Jim, Mary):</strong></p>
+        <ul>
+            <li>Intersection: {P, N}</li>
+            <li>Union: {P, N, A}</li>
+            <li>Jaccard coefficient: 2 / 3 = 0.67</li>
+        </ul>
+        <p>Therefore, the Jaccard coefficients for the pairs are:</p>
+        <ul>
+            <li>(Jack, Mary): 0.33</li>
+            <li>(Jack, Jim): 0.67</li>
+            <li>(Jim, Mary): 0.67</li>
+        </ul>
+        <p>Compared to Jack and Mary the results shows that Jack and Jim have a higher degree of similarity in their test results.</p>
+
+
+          
+          
+            
+         
+            
+      
+           
+          
+     
+          
+        
+    </main>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="unit2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="units.html" class="dropbtn">Units</a>
+                <div class="dropdown-content">
+                    <a href="Unit1.html">Unit 1: Introduction</a>
+                    <a href="Unit2.html">Unit 2: Exploratory Analysis</a>
+                    <a href="Unit3.html">Unit 3: Correlation & Regression</a>
+                    <a href="Unit4.html">Unit 4: Linear Regression</a>
+                    <a href="Unit5.html">Unit 5: Clustering</a>
+                    <a href="Unit6.html">Unit 6: Clustering with python</a>
+                    <a href="Unit7.html">Unit 7: Intro to ANN</a>
+                    <a href="Unit8.html">Unit 8: Training ANN</a>
+                    <a href="Unit9.html">Unit 9: Intro to CNN</a>
+                    <a href="Unit10.html">Unit 10: CNN Interactive learning</a>
+                    <a href="Unit11.html">Unit 11:Model Selection</a>
+                    <a href="Unit12.html">Unit 12: Industry and Machine Learning</a>
+                </div>
+            </li>
+            <li><a href="/reflection.html">Reflection</a></li>
+        </ul>
+        
+       
+    </nav>
+    <main>
+        <h1>Unit 7: Introduction to Artificial Neural Networks (ANNs)</h1>
+        <p>ANN is an algortihm that learns from the environment and configurs itself to make the the right decisions. This algorithm is used in a number of sectors and includes a variety of usecases. ANN </p>
+        <h2>E portfolio activity : </h2>
+        <p>Watch this week's lecturecast and run the following python activities in order, using the same method as in the Unit 2 activity, in your Jupyter Notebook download from the Essex Software Hub:</p>
+        <ul>
+            <li><a href="https://www.my-course.co.uk/pluginfile.php/1196376/mod_page/content/5/Unit07 Ex1 simple_perceptron.ipynb">simple_perceptron.ipynb </a>   file to be shared </li>
+            <li><a href="https://www.my-course.co.uk/pluginfile.php/1196376/mod_page/content/5/Unit07 Ex2 perceptron_AND_operator.ipynb">perceptron_AND_operator.ipynb      </a>file to be shared</li>
+            <li><a href="https://www.my-course.co.uk/pluginfile.php/1196376/mod_page/content/5/Unit07 Ex3 multi-layer Perceptron.ipynb">3multi-layer Perceptron.ipynb (the Sigmoid Function).  </a> file to be shared</li>
+        </ul>
+        <h3>Learning Outcomes</h3>
+        <p>Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.</p>
+        <h4>Simple Perceptron</h4>
+          <ol>
+            <li><strong>Parameters:</strong>  
+                <ul>
+                    <li>Learning Rate: I find that a larger learning rate leads to overshooting the optimal solution but also converges more quickly. Although it takes longer to converge, a lower learning rate is more stable.</li>
+                </ul>
+            </li>
+            <li><strong>Operator AND Perceptron</strong>
+                <ul>
+                    <li><strong>Modifications to Data:</strong> 
+                        
+                        <ul>
+                            <li>Feature Representation: You are aware that binary features are assumed by the AND operator. The model must be modified to account for changes in feature representation or the inclusion of additional features.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Model Parameters: </strong>
+                         <ul>
+                        <li>Weights: The AND operator's weights are normally set to -2 for the bias and 1 for both inputs. The decision boundary changes when these values are changed.</li>
+                         </ul>
+                   </li>
+                </ul>
+            </li>
+          </ol>
+          <h4>Multi-Layer Perceptron (Sigmoid Function)</h4>
+          <ul>
+            <li><strong>Modifications to Data: </strong>
+                <ul>
+                    <li>Feature Scaling: I find that performance is enhanced by feature scaling.</li>
+                    <li>Noise: Noise also has an impact on the model's accuracy. Techniques for noise reduction and data cleansing are crucial.</li>
+                    
+                </ul>
+            </li>
+            <li><strong>Model Parameters: </strong>
+                <ul>
+                    <li>Learning Rate: Similar to the simple perceptron, convergence speed and stability are influenced by the learning rate.</li>
+                    <li>Initialization: The convergence path and ultimate solution are impacted by the initialization of weights and biases. The convergence was impacted when I experimented with random initialization.</li>
+                    <li>Hidden Layers: I found that the capacity and complexity of the model are influenced by the number of hidden layers and neurons in each layer. Although I noticed that the model is occasionally overfitting, extra layers and neurons may be able to learn more intricate patterns.</li>
+                    <li>Activation Function: I also discovered that the model's capacity to learn non-linear relationships is impacted by the activation function I used (such as ReLU or tanh).</li>
+                </ul>  
+            </li>
+          </ul>
+          <p>The performance of perceptron models is generally greatly impacted by modifications to the data or model parameters. Finding the best configuration for a particular problem frequently requires experimentation and parameter modification.</p>
+          
+            
+         
+            
+      
+           
+          
+     
+          
+        
+    </main>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script src="script.js"></script>
+</body>
+</html>

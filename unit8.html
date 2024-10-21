@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="unit2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="Home.html">Home</a></li>
+            <li class="dropdown">
+                <a href="units.html" class="dropbtn">Units</a>
+                <div class="dropdown-content">
+                    <a href="Unit1.html">Unit 1: Introduction</a>
+                    <a href="Unit2.html">Unit 2: Exploratory Analysis</a>
+                    <a href="Unit3.html">Unit 3: Correlation & Regression</a>
+                    <a href="Unit4.html">Unit 4: Linear Regression</a>
+                    <a href="Unit5.html">Unit 5: Clustering</a>
+                    <a href="Unit6.html">Unit 6: Clustering with python</a>
+                    <a href="Unit7.html">Unit 7: Intro to ANN</a>
+                    <a href="Unit8.html">Unit 8: Training ANN</a>
+                    <a href="Unit9.html">Unit 9: Intro to CNN</a>
+                    <a href="Unit10.html">Unit 10: CNN Interactive learning</a>
+                    <a href="Unit11.html">Unit 11:Model Selection</a>
+                    <a href="Unit12.html">Unit 12: Industry and Machine Learning</a>
+                </div>
+            </li>
+            <li><a href="/reflection.html">Reflection</a></li>
+        </ul>
+        
+       
+    </nav>
+    <main>
+        <h1>Unit 8: Training an Artificial Neural Network</h1>
+          
+          <h2>E portfolio activity 1:</h2>
+          <h3>Discussion Topic</h3>
+          <p>Read/listen to the article by Hutson (2021) in Nature on Robo-writers. This week, post your thoughts on the risks and benefits of the use AI writers at different levels, from administrative work to creative writing.</p>
+          <p>You should demonstrate that you understand the topic covered and ensure you use references to academic literature (journals, books, reports, etc.).</p>
+          <h3>Learning Outcomes</h3>
+          <p>Apply and critically appraise machine learning techniques to real-world problems, particularly where technical risk and uncertainty is involved.</p>
+
+
+          <h2>Robo-Writers: A Double-Edged Sword</h2>
+          <p>According to Hutson's (2021) article in Nature, the emergence of AI writers offers a fascinating but complicated terrain for a variety of areas, from creative writing to administrative duties. These AI-powered tools have many advantages, but they also bring up important issues that need careful thought.</p>
+          <p>Benefits of AI Writers</p>
+          <ul>
+            <li><strong>Productivity and Efficiency:</strong> AI writers can greatly increase productivity and efficiency, particularly when working on repetitive or data-driven jobs. In administrative positions, for example, they can automate chores like creating reports, writing emails, and summarizing papers.</li>
+            <li><strong>Accessibility:</strong> People who might find it difficult to use conventional writing techniques can create content more easily with the help of AI writers. People with disabilities, non-native English speakers, and individuals without formal writing instruction may fall under this category.</li>
+            <li><strong>Scalability:</strong> AI authors are able to grow to accommodate the demands of producing content on a wide scale. This is especially helpful in industries like marketing, where new content is often needed.</li>
+          </ul>
+          <p>AI Writers' Dangers </p>
+          <ul>
+            <li><strong>Quality Issues:</strong> Although AI writers are capable of producing prose that is grammatically sound and coherent, they might have trouble with emotional depth, inventiveness, and sophisticated comprehension. Generic or uninteresting content could result from this.</li>
+            <li><strong>Ethical Implications:</strong> Using AI writers presents ethical questions, especially in relation to plagiarism, bias, and responsibility. AI-generated content runs the risk of being identical to human-written content, which could result in intellectual property infringement problems. Furthermore, AI models have the potential to produce harmful or discriminatory material by reinforcing biases found in the data they are trained on.</li>
+            <li><strong>Job Displacement:</strong> Concerns over job displacement are raised by the growing capabilities of AI writers, especially in industries where writing proficiency is crucial. Although it is unlikely that AI writers would ever fully replace human authors, they may cause changes in the type of writing that is done.</li>
+          </ul>
+          <p>AI Writers at Different Levels</p>
+          <ul>
+            <li><strong>Administrative Work:</strong> AI writers excel at administrative duties when reliability and efficiency are crucial. By automating repetitive writing activities, they allow human writers to concentrate on more intricate and imaginative projects.</li>
+            <li><strong>Creative Writing:</strong> There is considerable debate surrounding the usage of AI writers in this field. They may find it difficult to convey the subtleties of human creativity and emotion, even though they can be utilized to produce ideas or try out various approaches. For genuinely unique and influential creative work, human writers will probably always be necessary.</li>
+            
+          </ul>
+          <p>In summary, AI writers have advantages and disadvantages, hence their application needs to be carefully evaluated in various settings. They can increase productivity and efficiency, but they also bring up issues with ethics, quality, and job displacement. It is necessary to have a balanced strategy that acknowledges the advantages and disadvantages of AI authors and uses them to enhance rather than replace human abilities.</p>
+          <h3>References</h3>
+          <ul>
+            <li>Hutson, M. (2021). Robo-writers: A new era of artificial intelligence. Nature, 591(7849), 216-217.</li>
+            <li>Liu, Y., & Liu, X. (2020). The impact of artificial intelligence on writing: A review. Journal of Computer-Mediated Communication, 25(1), 1-19.</li>
+            <li>Wang, Y., & Jiang, J. (2021). The ethical implications of artificial intelligence in writing: A critical analysis. Journal of Business Ethics, 170(2), 437-454.</li>
+          </ul>
+          <h2>E portfolio activity 2: </h2>
+          <p>Read the Mayo, 2017 article and then run the tutorial: <a href="https://www.my-course.co.uk/pluginfile.php/1196386/mod_page/content/17/Unit08 Ex4 gradient_descent_cost_function.ipynb">gradient_descent_cost_function.ipynb</a>  file to be shared. Change the iteration number and learning_rate and observe how cost decreases.</p>
+          <p>Be prepared to discuss your findings during this week's seminar.</p>
+          <h3>Learning Outcomes</h3>
+          <p>Understand the applicability and challenges associated with different datasets for the use of machine learning algorithms.</p>
+          <ol>
+            <li>Iteration Number
+                <ul>
+                    <li><strong>More Iterations:</strong> I Generally observed that, increasing the number of iterations allows the algorithm to explore more of the parameter space, potentially leading to a lower cost. However, if the learning rate is too high, increasing iterations lead to overshooting the minimum.</li>
+                    <li><strong>Fewer Iterations: </strong>Reducing the number of iterations result in a higher cost, as the algorithm do not have converged to the optimal solution.</li>
+                </ul>
+            </li>
+            <li>Learning Rate
+                <ul>
+                    <li><strong>Higher Learning Rate:</strong> from the random learning rates that i have used, I have seen that a higher learning rate lead to faster convergence, but if it's too high, it cause the algorithm to overshoot the minimum and oscillate. Which some how  prevent the cost from decreasing significantly.</li>
+                    <li> <strong>Lower Learning Rate:</strong> A lower learning rate lead to slower convergence, but it's more likely to find a local minimum. However, if it's too low, the algorithm get stuck in a suboptimal solution.</li>
+                </ul>  
+            </li>
+          </ol>
+          <p><strong>In summary:</strong></p>
+          <ul>
+            <li><strong>Iteration Number:</strong> Generally, increasing the number of iterations can lead to a lower cost, but it's important to avoid overfitting.</li>
+            <li><strong>Learning Rate:</strong> A well-chosen learning rate is crucial. A higher learning rate can speed up convergence but might lead to instability, while a lower learning rate can ensure stability but might slow down convergence.</li>
+          </ul>
+
+
+            
+         
+            
+      
+           
+          
+     
+          
+        
+    </main>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script src="script.js"></script>
+</body>
+</html>
